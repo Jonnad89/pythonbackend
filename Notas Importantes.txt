@@ -1,0 +1,6 @@
+# Inicia el server: uvicorn main:app --reload
+# Documentación con Swagger: http://127.0.0.1:8000/docs
+# Documentación con Redocly: http://127.0.0.1:8000/redoc
+# Instalar la extensión "thunder client" en VSCode que hace algo muy similar a Postman
+
+# debo revisar los errores para colocarlos

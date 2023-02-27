@@ -1,0 +1,21 @@
+FASTAPI
+
+pip install "fastapi[all]"   // esto traerá todas las dependencias de fastapi
+
+
+Servidor
+
+paso 1
+pip install "uvicorn[standard]"
+
+paso 2
+uvicorn main:app --reload  // lo que hace reload es que se recarga automaticamente en el servidor cada vez que guarde
+
+
+from fastapi import FastAPI
+
+app = FastAPI() instanciamos fastapi
+
+@app.get("/")
+async def root(): Siempre que llamemos a un servidor tiene que ser async 
+    return "¡Hola FastApi!"

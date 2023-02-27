@@ -1,0 +1,16 @@
+.post
+.get
+.put
+.delete
+
+Y los más exóticos:
+
+.options
+.head
+.patch
+.trace
+
+POST: para crear datos
+GET: para leer datos
+PUT: para actualizar datos
+DELETE: para borrar datos

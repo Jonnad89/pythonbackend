@@ -1,0 +1,10 @@
+#app.post()
+#app.put()
+#app.delete()
+
+y las más exóticas:
+
+#app.options()
+#app.head()
+#app.patch()
+#app.trace()
